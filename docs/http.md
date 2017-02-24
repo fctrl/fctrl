@@ -7,7 +7,7 @@
 }
 ```
 
-## GET /account_types
+## GET /v1/account_types
 
 Response:
 
@@ -32,7 +32,7 @@ Response:
 }
 ```
 
-## GET /accounts
+## GET /v1/accounts
 
 Response:
 
@@ -44,7 +44,7 @@ Response:
 ]
 ```
 
-## PUT /accounts/\<uuid\>
+## PUT /v1/accounts/\<uuid\>
 
 Request:
 

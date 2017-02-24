@@ -26,10 +26,9 @@ Response:
   "id": "<uuid>",
   "name": "<name>",
   "account_type_id": "<uuid>",
-  "children": [
-    <Account>,
-    <Account>
-  ]
+  "parent_account_id": "<uuid>", // can be null
+  "before_account_id": "<uuid>", // can be null
+  "after_account_id": "<uuid>", // can be null
 }
 ```
 
@@ -50,14 +49,7 @@ Response:
 Request:
 
 ```js
-{
-  "id": "<uuid>",
-  "name": "<name>",
-  "account_type_id": "<uuid>",
-  "parent_account_id": "<uuid>", // can be null
-  "before_account_id": "<uuid>", // can be null
-  "after_account_id": "<uuid>", // can be null
-}
+<Account>
 ```
 
 Response:
